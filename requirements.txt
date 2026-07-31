@@ -1,0 +1,20 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+requests
+
+# Deep learning
+# NOTE: install torch via https://pytorch.org/get-started/locally/ first if
+# you need a specific CUDA build — a plain `pip install torch` gives you a
+# CPU-only or default-CUDA wheel depending on platform.
+torch
+transformers
+huggingface_hub
+
+# Cheminformatics (drug SMILES -> fingerprints/descriptors)
+rdkit
+
+# Optional: enables real spline-based KAN layers in gtm_kan_moa.py.
+# Without it the code prints a warning and falls back to an MLP classifier.
+pykan
